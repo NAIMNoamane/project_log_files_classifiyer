@@ -1,6 +1,6 @@
 # Log Files Classifiyer System
 
-This project implements a hybrid log classification system, combining three complementary approaches to handle varying levels of complexity in log patterns. The classification methods ensure flexibility and effectiveness in processing predictable, complex, and poorly-labeled data patterns.
+This project implements a hybrid log classification system, combining three complementary approaches to handle varying levels of complexity in log patterns. The classification methods ensure flexibility and effectiveness in processing predictable, complex, and poorly-labeled data patterns. Thid system can be very effective in monitoring the logs.
 
 ---
 
@@ -40,6 +40,7 @@ Here is the architecture of this system:
 
 4. **Root Directory**:
    - Contains the FastAPI endpoint (`micro_service.py`).
+   - Includes every processing approach from regex classification to LLM classification.
 
 ---
 
