@@ -1,0 +1,7 @@
+fastapi==0.115.12
+sentence-transformers==3.3.1
+joblib==1.4.2
+ollama==0.4.8
+regex==2024.11.6
+pandas==2.2.3
+scikit-learn==1.6.1
